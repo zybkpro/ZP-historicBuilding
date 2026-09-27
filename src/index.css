@@ -1,0 +1,44 @@
+:root {
+  --ink: #1a1510;
+  --ink-soft: #3d342c;
+  --paper: #f2ebe0;
+  --paper-dim: rgba(242, 235, 224, 0.72);
+  --cinnabar: #9c2b1f;
+  --gold: #c4a35a;
+  --mist: rgba(26, 21, 16, 0.45);
+  --font-serif: 'Noto Serif SC', 'Songti SC', serif;
+  --font-sans: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
